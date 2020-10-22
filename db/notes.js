@@ -27,16 +27,11 @@ class Notes {
         })
     }
     addNotes(note){
-        console.log(note);
         const { title, text } = note;
-    
         const goodNote = { title, text, id: ++this.idDum }
-
-        console.log(goodNote);
         return this.getNotes().then(notes => [...notes, goodNote]).then(updatedNotes => this.writeNotes(updatedNotes)).then(()=>goodNote);
     }
     deleteNotes(id){
-        console.log("we want to delete" + id);
         return this.getNotes().then(notes => notes.filter(note => note.id !== parseInt(id))).then(deletedNotes => this.writeNotes(deletedNotes));
     }
 

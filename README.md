@@ -1,7 +1,7 @@
 # HW-11-NoteTaker
 
 ## Summary
-This simple note taking application allows you to save notes with a title and plain text. Powered by ExpressJS, the Note Taker app makes creating, viewing, and deleting notes a cinch!
+This simple note taking application allows you to save notes with a title and plain text. Powered by ExpressJS, the Note Taker app makes creating, viewing, and deleting notes easy.
 
 ## Prerequisites
 * [NodeJS](https://nodejs.org/)
@@ -12,7 +12,7 @@ Clone the repository to your local development environment.
 
 Navigate to the developer-profile-generator folder using the command prompt.
 
-Run `npm install` to install all dependencies. To use the application locally, run `node server.js` in your CLI, and then open `http://localhost:8080` in your preferred browswer. The Note Taker app is [live on Heroku](https://whispering-woodland-84908.herokuapp.com/) for you to use as well.
+Run `npm install` to install all dependencies. To use the application locally, run `node server.js` in your CLI, and then open `http://localhost:8080` in your preferred browswer. The Note Taker app is [live on Heroku](https://damp-savannah-09373.herokuapp.com/) for you to use as well.
 
 ## Deployed Link:
 [Note Taker App](https://damp-savannah-09373.herokuapp.com/)
